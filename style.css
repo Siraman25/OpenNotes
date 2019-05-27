@@ -1,0 +1,50 @@
+body {
+  background-color: #efecec;
+}
+
+.close {
+  transition-duration: 200ms;
+  padding: 4px 4px 4px 4px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.close:hover {
+  transition-duration: 200ms;
+  background-color: #e4e8dc;
+}
+
+.checked {
+  transition-duration: 200ms;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  /* background-color: #f2efef; */
+  border-radius: 5px;
+  text-decoration: line-through;
+}
+
+.checked-mark {
+  transition-duration: 200ms;
+  background-color: #f2efef;
+}
+
+.checked:hover {
+  transition-duration: 200ms;
+  /* background-color: #eae7e7;*/
+}
+
+.note-card {
+  padding-top: 22px;
+  padding-bottom: 15px;
+}
+
+.note-text {
+  font-family: 'Open Sans';
+  font-size: 18px
+}
+
+.waves-effect.waves-blue .waves-ripple {
+  /* The alpha value allows the text and background color
+  of the button to still show through. */
+  background-color: #578af2;
+}
